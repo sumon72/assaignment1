@@ -9,7 +9,7 @@ body,
 html {
   height: 100%;
   font-family: 'Segoe UI', sans-serif;
-  background-color: aquamarine;
+  background-color: rgb(220, 225, 241);
 }
 
 /* Header section */
@@ -401,7 +401,7 @@ footer {
 }
 
 .footer-container h1 {
-  font-size: 28px;
+  font-size: 64px;
   color: #4c50ff;
   margin: 0;
 }
