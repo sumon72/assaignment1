@@ -289,22 +289,76 @@ nav {
   margin-bottom: 20px;
 }
 
-/* .cta-btn {
-  background-color: #4c50ff;
-  color: #fff;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 16px;
-  cursor: pointer;
-} */
 
 .webflowconf img {
   margin-top: 20px;
   max-width: 100%;
   height: auto;
   border-radius: 32px;
+}
+
+.content6 {
+  width: 100%;
+  height: 632px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* optional */
+}
+
+.getstouch {
+  flex: 1;
+  max-width: 400px;
+}
+
+.getstouch h1 {
+  font-size: 36px;
+  color: #1a1a1a;
+}
+
+.form {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form label {
+  font-weight: 600;
+  margin-top: 8px;
+  color: #333;
+}
+
+.form input,
+.form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.cta-btn {
+  background-color: #4c50ff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+  align-self: flex-start;
 }
 
 
