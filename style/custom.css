@@ -8,7 +8,7 @@ body,
 html {
   height: 100%;
   font-family: 'Segoe UI', sans-serif;
-  background-color: rgb(220, 225, 241);
+  background-color: rgb(232 234 239);
 }
 
 /* Header section */
@@ -33,16 +33,7 @@ nav {
 .logo {
   color: #4c50ff;
   font-weight: 700;
-  font-size: 60px;
-}
-
-.signup-btn {
-  background-color: #4c50ff;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
+  font-size: 25px;
 }
 
 .content {
@@ -60,16 +51,6 @@ nav {
   color: #1a1a1a;
 }
 
-.cta-btn {
-  background-color: #4c50ff;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
 .content2 {
   width: 1140px;
   height: 328px;
@@ -85,7 +66,7 @@ nav {
 }
 
 .action h1 {
-  font-size: 32px;
+  font-size: 38px;
   color: #1a1a1a;
   margin-bottom: 16px;
 }
@@ -96,15 +77,23 @@ nav {
   margin-bottom: 24px;
 }
 
-.action .cta-btn {
+.cta-btn {
   background-color: #4c50ff;
   color: white;
-  padding: 12px 24px;
   border: none;
+  padding: 12px 24px;
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
+
+.cta-btn:hover {
+  background-color: #2c318b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 80, 255, 0.4);
+}
+
 
 /* Right side (image) */
 .webflow img {
@@ -124,9 +113,7 @@ nav {
   align-items: center;
   justify-content: center;
   background-color: #deddf7;
-  /* optional */
   border-radius: 16px;
-  /* optional */
   box-sizing: border-box;
   margin-top: 70px;
 }
@@ -157,7 +144,7 @@ nav {
 }
 
 .number {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
   color: #4c50ff;
 }
@@ -372,6 +359,11 @@ nav {
   margin-top: 12px;
   align-self: flex-start;
   width: 498px;
+}
+.sub-btn:hover {
+  background-color: #2c318b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 80, 255, 0.4);
 }
 
 footer {
