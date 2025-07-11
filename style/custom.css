@@ -1,0 +1,71 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header section */
+header {
+  height: 698px;
+  width: 100%;
+  background-image: url('../assets/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 60px;
+}
+
+/* Navbar layout */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #4c50ff;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.signup-btn {
+  background-color: #4c50ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Center content section */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  margin-top: 158px;
+  margin-bottom: 200px;
+}
+
+.content h1 {
+  font-size: 36px;
+  color: #1a1a1a;
+}
+
+.cta-btn {
+  background-color: #4c50ff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
